@@ -13,24 +13,3 @@ describe("Email validator all tests", () => {
     expect(emailValidator1("humlebuks.fisk")).toBe(false);
   });
 });
-
-// import { render, screen } from "@testing-library/react";
-// import Greeting from "./Greeting";
-// import EmailValidator from "./EmailValidator";
-// // import { toBeInTheDocument } from "@testing-library/jest-dom/matchers";
-
-// describe("EmailandGreeting Suit", () => {
-//   test("Email Input Validation", () => {
-//     render(<EmailValidator />);
-//     const validEmailAddressElement = screen.getByText("Valid Email Address", {
-//       exact: false,
-//     });
-//     expect(validEmailAddressElement).toBeInTheDocument();
-//   });
-//   test("renders Hello World as a text", () => {
-//     render(<Greeting />);
-
-//     const helloWorldElement = screen.getByText("Hello World", { exact: false });
-//     expect(helloWorldElement).toBeInTheDocument();
-//   });
-// });

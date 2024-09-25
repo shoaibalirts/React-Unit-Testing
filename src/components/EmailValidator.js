@@ -50,7 +50,11 @@ const EmailValidator = () => {
         <form onSubmit={getEmailInput}>
           <p>
             <label>Insert Email Address:</label>
-            <input type="text" onChange={(e) => setEmail(e.target.value)} />
+            <input
+              type="text"
+              name="email"
+              onChange={(e) => setEmail(e.target.value)}
+            />
           </p>
           <p>
             <button type="submit">Test Valid Email Address</button>
