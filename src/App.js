@@ -1,9 +1,11 @@
 import "./App.css";
 import Greeting from "./components/Greeting.js";
+import EmailValidator from "./components/EmailValidator.js";
 function App() {
   return (
     <div className="App">
-      <Greeting />
+      <EmailValidator />
+      {/* <Greeting /> */}
     </div>
   );
 }
