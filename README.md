@@ -1,6 +1,8 @@
 # React Unit Testing
 
-<p>use vite </p>
-<p>npm run dev</p>
-
-<p>localhost:5173</p>
+<p>npx create-react-app </p>
+<p>npm install</p>
+<p>npm run start</p>
+<p>for testing</p>
+<p>npm run test</p>
+<p>localhost:3000</p>
